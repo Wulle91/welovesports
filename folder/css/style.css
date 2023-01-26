@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Russo+One&display=swap');
+
+body {
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'fugaz one', sans-serif; 
+    color: #fff;
+    letter-spacing: 4px;
+    position: absolute;
+    margin: 30px 50px;
+    font-size: 300%;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/players.jpg") no-repeat center center;
+    position: relative;
+}
+
+#message {
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 20px;
+    bottom: 50px;
+    right: 190px;
+    color: #fff;
+    padding: 20px;
+}
+
+#hero-image h2 {
+    text-align: center;
+    row-gap: 5px;
+    line-height: 70px;
+}
