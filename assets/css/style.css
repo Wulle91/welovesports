@@ -177,3 +177,25 @@ section {
     }
 }
 
+footer {
+    width: 100%;
+    height: 150px;
+    background: black;
+    text-align: center;
+
+}
+
+footer a {
+    font-size: 250%;
+    padding: 50px 100px;
+    display: inline-flex;
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+footer a:hover {
+    color: yellowgreen;
+}
+
