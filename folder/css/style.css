@@ -38,7 +38,7 @@ h1 {
     text-align: center;
     row-gap: 5px;
     line-height: 70px;
-    font-family: 'kelly slab';
+    font-family: 'kelly slab', sans-serif;
     letter-spacing: 3px;
     font-size: 200%;
 }
@@ -52,14 +52,92 @@ nav {
 
 nav a {
     margin: 0 80px;
-    font-family: 'kelly slab';
+    font-family: 'kelly slab', sans-serif;
     font-size: 130%;
     color: #fff;
     text-decoration: none;
-    transform: skew(10deg);
 }
 
 nav a:hover {
     color: yellowgreen;
 }
 
+section {
+    height: 600px;
+    width: 100%;
+    background: url("../images/2946550.webp") no-repeat center center;
+    
+  
+}
+
+#description-div {
+    
+    background-color: rgba(14, 12, 12, .97);
+    height: 100%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#center {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+}
+
+#description-div h2 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'fugaz one', sans-serif;
+    font-size: 400%;
+    letter-spacing: 50px;
+}
+
+.four-w {
+    width: 25%;
+    height: 130px;
+    background-color: rgb(56, 48, 48);
+    text-align: center;
+    display: inline-block;
+    border: 2px solid rgb(187, 177, 177);
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: 'kelly slab';
+    color: #fff;
+    margin: 5px;
+    overflow: hidden;
+}
+
+#description-div h3 {
+    font-size: 150%;
+}
+
+#description-div li {
+    list-style-type: none;
+    width: 90%;
+    
+}
+
+#description-div ul {
+    margin-top: 40px;
+}
+
+#why:hover {
+    height: 330px;  
+}
+
+#why:hover li {
+    animation: text-up;
+    animation-duration: 2s;
+}
+
+
+
+@keyframes text-up {
+    from {
+        line-height: 250px;
+    }
+    to {
+        line-height: 20px;
+    }
+}
