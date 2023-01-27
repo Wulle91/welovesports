@@ -48,6 +48,7 @@ nav {
     color: #fff;
     padding: 20px;
     text-align: center;
+    margin: 0;
 }
 
 nav a {
@@ -197,5 +198,27 @@ footer a {
 
 footer a:hover {
     color: yellowgreen;
+}
+
+#locations-container {
+    background-color: rgba(14, 12, 12, .97);
+    height: 100%;
+    margin: 0 10%;
+    
+    
+}
+
+.locations {
+    width: 33%;
+    height: 50%;
+    background-color: rgb(56, 48, 48);
+    text-align: center;
+    display: inline-block;
+    border: 2px solid rgb(187, 177, 177);
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: 'kelly slab';
+    color: #fff;
+    overflow: hidden;
 }
 
