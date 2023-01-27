@@ -126,11 +126,46 @@ section {
     height: 330px;  
 }
 
-#why:hover li {
-    animation: text-up;
-    animation-duration: 2s;
+#what:hover {
+    height: 330px;
 }
 
+#who:hover {
+    height: 330px;
+}
+
+#where:hover {
+    height: 330px;
+}
+
+#why:hover li {
+    animation: text-up;
+    animation-duration: 1s;
+}
+
+#what:hover li {
+    animation: text-up;
+    animation-duration: 1s;
+}
+
+#who:hover li {
+    animation: text-up;
+    animation-duration: 1s;
+}
+
+#where:hover li {
+    animation: text-up;
+    animation-duration: 1s;
+}
+
+#where a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+#where a:hover {
+    color: yellowgreen;
+}
 
 
 @keyframes text-up {
@@ -141,3 +176,4 @@ section {
         line-height: 20px;
     }
 }
+
