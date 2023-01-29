@@ -209,6 +209,7 @@ footer a:hover {
     height: 550px;
     margin: 20px 10%; 
     position: absolute;
+    text-align: center;
 }
 
 .locations {
@@ -223,6 +224,7 @@ footer a:hover {
     font-family: 'kelly slab', sans-serif;
     color: #fff;
     overflow: hidden;
+    text-align: center;
 }
 
 #sign-in {
@@ -314,7 +316,7 @@ footer a:hover {
 
 @media screen and (max-width: 1700px) {
     section {
-        height: 800px;
+        height: 900px;
     }
     #center {
         display: flex;
@@ -369,5 +371,14 @@ footer a:hover {
         padding: 10px;
         height: 230px;
     }
+    .locations {
+        width: 80%;
+        margin: 0 auto;
+        height: 270px;
+    }
+    #locations-container {
+        overflow: scroll;
+        height: 100%;
+    }
+   
 }
-
