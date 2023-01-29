@@ -232,6 +232,7 @@ footer a:hover {
     height: 500px;
     margin: 0 auto;
     padding: 5%;
+    display: flex;
 }
 
 #personal-info {
@@ -242,6 +243,7 @@ footer a:hover {
     background-color: rgba(14, 12, 12, .97);
     border-radius: 10px;
     float: left;
+    margin-right: 10px;
 }
 
 #personal-info select {
@@ -294,7 +296,8 @@ footer a:hover {
     margin-top: 40px;
     padding: 0 40px;
     background-color: rgba(14, 12, 12, .97);
-    float: right;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
 }
 
@@ -322,7 +325,30 @@ footer a:hover {
         display: flex;
         flex-wrap: wrap;
     }
+    #personal-info {
+        width: 370px;
+    }
+    #sign-in {
+        width: 80%;
+    }
+}
 
+@media screen and (max-width: 1300px){
+    #sign-in{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #join-video {
+        width: 370px;
+        height: fit-content;
+    }
+    section {
+        height: 950px;
+    }
+    #join-video iframe {
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width: 1010px) {
@@ -380,5 +406,14 @@ footer a:hover {
         overflow: scroll;
         height: 100%;
     }
-   
+}
+
+@media screen and (max-width: 465px) {
+    #personal-info {
+        width: 90%;
+        height: 600px;
+    }
+    #join-video {
+        width: 90%;
+    }
 }
