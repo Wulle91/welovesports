@@ -87,6 +87,7 @@ section {
     margin: 0 auto;
     width: 70%;
     display: flex;
+
 }
 
 #description-div h2 {
@@ -99,11 +100,10 @@ section {
 }
 
 .four-w {
-    width: 25%;
+    width: 310px;
     height: 130px;
     background-color: rgb(56, 48, 48);
     text-align: center;
-    display: inline-block;
     border: 2px solid rgb(187, 177, 177);
     box-sizing: border-box;
     border-radius: 15px;
@@ -111,6 +111,7 @@ section {
     color: #fff;
     margin: 5px;
     overflow: hidden;
+    margin: 5px auto;
 }
 
 #description-div h3 {
@@ -214,7 +215,7 @@ footer a:hover {
     width: 33.15%;
     height: 50%;
     background-color: rgb(56, 48, 48);
-    text-align: center;
+    margin: 0 auto;
     display: inline-block;
     border: 2px solid rgb(187, 177, 177);
     box-sizing: border-box;
@@ -228,7 +229,7 @@ footer a:hover {
     width: 60%;
     height: 500px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 5%;
 }
 
 #personal-info {
@@ -239,6 +240,10 @@ footer a:hover {
     background-color: rgba(14, 12, 12, .97);
     border-radius: 10px;
     float: left;
+}
+
+#personal-info select {
+    display: block;
 }
 
 #personal-info label {
@@ -252,18 +257,23 @@ footer a:hover {
 #personal-info input {
     border-radius: 5px;
     padding: 5px;
-    width: 70%;
+    width: 100%;
 }
 
-#personal-info button {
+#reset {
+    
     margin: 20px 10px;
-    margin-right: 100px;
+    float: right;
     transform: scale(1.3);
     font-family: 'fugaz one', sans-serif;
 }
 
 #submit {
     background-color: yellowgreen;
+    margin: 20px 10px;
+    float: left;
+    transform: scale(1.3);
+    font-family: 'fugaz one', sans-serif;
 }
 
 #submit:hover {
@@ -299,5 +309,65 @@ footer a:hover {
     display: flex;
     bottom: 10px;
     margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1700px) {
+    section {
+        height: 800px;
+    }
+    #center {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 1010px) {
+    section {
+        height: 1050px;
+    }
+    #center {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer a {
+        font-size: 250%;
+        padding: 50px 5%;
+        display: inline-flex;
+        margin-right: 20px;
+    }
+    #description-div h2 {
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'fugaz one', sans-serif;
+        font-size: 300%;
+        letter-spacing: 10px;
+    }
+    nav a {
+        display: block;
+        margin-top: 10px;
+    }
+    #message {
+        text-align: center;
+        width: 70%;
+        height: 200px;
+        background-color: rgba(0, 0, 0, .8);
+        border-radius: 20px;
+        margin-top: 400px;
+        margin: 0 auto;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #message {
+        font-size: 80%;
+        position: sticky;
+        top: 300px;
+        padding: 10px;
+        height: 230px;
+    }
 }
 
