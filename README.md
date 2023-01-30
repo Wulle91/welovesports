@@ -67,4 +67,41 @@ Testing
 
 Bugs
 
-    
+    Solved bugs
+
+        I couldne style reset and submit button tahn i notces that new code is beein owerwritten by code abowe that more specific was i addes to id parent element id an it worked fine.
+        Submit and reset buttons didn't work. </form> was right after opening tag, i probably did copy/paste instead cut/paste.
+
+
+Validator Testing
+
+    HTML
+        
+    CSS
+        No errors awere found when passing trought the official Jigsaw validator.
+
+    Accessability
+        I confirm that colors and fonts are easy to read by running it trought lighthouse in devtools.
+
+![pageElements](assets/images/peformance.PNG) 
+
+
+Deployment
+
+    The site was deploied to Github pages. 
+
+    The live link can be fond here:  https://github.com/Wulle91/welovesports
+
+
+Credits:
+
+    Content
+        The icons in the footer are taken from Frot Awesome
+        Instructions how do flexbox work on youtube  https://www.youtube.com/watch?v=JJSoEo8JSnc
+        I applied all I learned from code insitute
+
+    Media
+        Motivational video on Join us! from youtube     https://www.youtube.com/watch?v=g031sw47JqA&t=249s
+        Hero image                                      https://forsports.at/web/image/8747/All%20players.jpg
+        Background image                                https://images.shiksha.com/mediadata/images/articles/1415964511phpXeEhUM.jpeg 
+        Loaction maps from google maps                  https://www.google.com/maps
