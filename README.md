@@ -1,18 +1,14 @@
 # ...just sports...
 
-Lot of people would like to doo some sports and don't wannt to get caught up in boring routine of trainig or repeting allways the same exercises, going to same places, doing all the same stuff ower and ower again.
+Lot of people would like to doo some sports and don't want to get caught up in boring routine of training or repeating always the same exercises, going to same places, doing all the same stuff ower and ower again.
 
-Our goal is to connect people of one comunity to meet up and train/play all kinds of sports together. We play vereity of sports on diferent locations making it so interesting to come and have fun with people with the same goal.
+Our goal is to connect people from one community to meet up and train/play all kinds of sports together. We play a variety of sports in diferent locations making it so interesting to come and have fun with people with the same goal.
 
-User of the website will be able to see our location and times wann we meetup, reigstering to our page user would get informations on our next meetuops or some tournements wich they could join.
+Users of the website will be able to see our location and times wann we meetup, registering to our page user will get information on our next meetups or some tournaments wich they could join.
 
 ![Responsice Mockup](https://github.com/Wulle91/welovesports/blob/main/assets/images/amiresponsive.PNG)
 
 ## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-### Existing Features
 
 - __Navigation Bar__
 
@@ -23,15 +19,15 @@ In this section, you should go over the different parts of your project, and des
 
   - Navigation is in font similar to those used for energy drinks witch complements the pasion for spots.
          
-  - Navigation tells clearly wheere we are and what content we cann find on our webpage. 
+  - Navigation tells clearly where we are and what content we cann find on our webpage. 
 
 ![Nav Bar](https://github.com/Wulle91/welovesports/blob/main/assets/images/navbar.PNG)
 
 - __The landing page image__
 
-  - The header shows the simple title ...just sports... followd by imperative message to respecto your body and indications ther later on user cann find out what is it about.
+  - The header shows the simple title ...just sports... followd by imperative message to respect your body and indications ther later on user cann find out what is it about.
 
-  - The header shows its clearly for sports only, profesional adult athlets indicates its not for kids.
+  - The header shows its clearly for sports-only, profesional adult athletes indicates its not for kids.
             
   - Section provides all the information after first impression given in header.
 
@@ -39,19 +35,20 @@ In this section, you should go over the different parts of your project, and des
 
 - __4 w 4 u Section__
 
-  - In section is our main content with intiguing title 4w4u following by 4 sections with 4 w questins, why, what, who, where with small intro to explanation, each one expands 
+  - In section is our main content with inrtiguing title 4w4u following by 4 sections with 4 w questions, why, what, who, where with small intro to explanation, each one  
+    expands 
     on hover and in every one are further information eventually givin the full information about all there is about our topic.
            
-  - This section, gives all necessary information obut our page and our goals. 
+  - This section, gives all necessary information aobut our page and our goals. 
 
 ![4 w 4 u](https://github.com/Wulle91/welovesports/blob/main/assets/images/section.PNG)
 
 - __Locations section__
 
-  -  Second page of our webpage is locations section with all locations where and wenn we meat and what we play.
+  - Second page of our webpage is locations section with all locations where and wenn we meat and what we play.
              
-  - Locations page has 6 boxes with locations and every box hat iframe google maps with exact lokation of meetup, it convinient to users in cars allowing them to find location  
-    fast in cases wwhere they are driving.
+  - Locations page has 6 boxes with locations and every box hat iframe google maps with exact location of meetup, it convenient to users in cars allowing them to find location  
+    fast in cases where they are driving.
 
 ![Locations Times](https://github.com/Wulle91/welovesports/blob/main/assets/images/locations.PNG)
 
@@ -60,16 +57,16 @@ In this section, you should go over the different parts of your project, and des
   -  The join us page has a form to collect details from users so they can be a member and join us on trainings.
   -  Form collects the users name, surname, email, and year of birth.
 
-  -  Its importan to register because the traingns are for members only and memebers get information such es if locatins are changed or if we organise or participate in    
-     turnament or someting of similat content.
+  -  Its important to register because the trainings are for members only and members get information, such es if locations are changed or if we organize or participate in    
+     tournament or something of similar content.
            
-  -  Next to form is one motivational video to convice the users witch are still not shure if they want ot join us or not.
+  -  Next to form is one motivational video to convince the users witch are still not shure if they want to join us or not.
 
 ![Locations Times](https://github.com/Wulle91/welovesports/blob/main/assets/images/joinus.PNG)
 
 - __The Footer__ 
 
-  - In footer are our social media links to take our users on our social media sites where are reguraly postet pictures of our meetups and trainings.
+  - In footer are our social media links to take our users on our social media sites where are reguraly posted pictures of our meetups and trainings.
             
   - Links are colored green on hover and all links open in new tab.
 
@@ -80,19 +77,19 @@ In this section, you should go over the different parts of your project, and des
 ## Testing 
 
 
-I tested this page in different browsers Chrome, Firefox, Edge.
+I tested this page in different browsers Chrome, Firefox and Edge.
 
-I confirmed that this project is, looks good and functins on all standard screen sizes using the dectools device toolbar.
+I confirmed that this project is, looks good and functions on all standard screen sizes using the devtools device toolbar.
 
-I confirmed that the nacigationa, header, locatons, sign up, section and footer are all readable and easy to understand.
+I confirmed that the navigation, header, locations, sign up, section and footer are all readable and easy to understand.
 
-I confirmed that thr form woeks: requires enteries in every field, will only accept an email in the email field, and the submit button works.
+I confirmed that thr form works: requires entries in every field, will only accept an email in the email field, and the submit button works.
 
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official. Home, Locations, Join Us respectivly.
+  - No errors were returned when passing through the official. Home, Locations, Join Us, respectivly.
   [W3C validator](https://github.com/Wulle91/welovesports/blob/main/assets/images/w3home.PNG)
   [W3C validator](https://github.com/Wulle91/welovesports/blob/main/assets/images/w3locations.PNG)
   [W3C validator](https://github.com/Wulle91/welovesports/blob/main/assets/images/w3joinus.PNG)
@@ -105,13 +102,12 @@ I confirmed that thr form woeks: requires enteries in every field, will only acc
 
 ### Unfixed Bugs
 
-I couldne style reset and submit button tahn i notces that new code is beein owerwritten by code abowe that more specific was i addes to id parent element id an it worked fine.
+I couldn't style reset and submit button than i notced that new code is beein overwritten by code above that more specific was, I added to id parent element id an it worked fine.
 Submit and reset buttons didn't work. Closing form tag was right after opening tag, i probably did copy/paste instead cut/paste.
  
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -127,13 +123,13 @@ The live link can be found here - https://github.com/Wulle91/welovesports
 
 - The icons in the footer are taken from Frot Awesome       
 - Instructions how do flexboxs work on youtube  [Specific YouTube Tutorial](https://www.youtube.com/watch?v=JJSoEo8JSnc)
-- I applied all I learned from code insitute
+- I applied all I learned from code institute
 
 ### Media
 
 - Motivational video on Join us! from youtube     https://www.youtube.com/watch?v=g031sw47JqA&t=249s       
 - Hero image                                      https://forsports.at/web/image/8747/All%20players.jpg
 - Background image                                https://images.shiksha.com/mediadata/images/articles/1415964511phpXeEhUM.jpeg 
-- Loaction maps from google maps                  https://www.google.com/maps
+- Location maps from google maps                  https://www.google.com/maps
 
 
