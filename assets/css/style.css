@@ -228,6 +228,10 @@ footer a:hover {
     text-align: center;
 }
 
+.locations .map {
+    width: 90%;
+}
+
 #sign-in {
     width: 60%;
     height: 500px;
