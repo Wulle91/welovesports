@@ -5,6 +5,8 @@ body {
     border: none;
     padding: 0;
 }
+ 
+/*header, hero image*/
 
 h1 {
     font-family: 'fugaz one', sans-serif; 
@@ -25,6 +27,8 @@ h1 {
     background: url("../images/players.jpg") no-repeat center center;
     position: relative;
 }
+
+/*message on header image*/
 
 #message {
     position: absolute;
@@ -47,6 +51,8 @@ h1 {
     font-size: 200%;
 }
 
+/*nav bar*/
+
 nav {
     background-color: rgb(15, 15, 15);
     color: #fff;
@@ -66,6 +72,8 @@ nav a {
 nav a:hover {
     color: yellowgreen;
 }
+
+/*main section on home page*/
 
 section {
     height: 600px;
@@ -98,6 +106,8 @@ section {
     font-size: 400%;
     letter-spacing: 50px;
 }
+
+/*4 w contaioners on home page */
 
 .four-w {
     width: 310px;
@@ -174,7 +184,6 @@ section {
     color: yellowgreen;
 }
 
-
 @keyframes text-up {
     from {
         line-height: 250px;
@@ -183,6 +192,8 @@ section {
         line-height: 20px;
     }
 }
+
+/*social media links*/
 
 footer {
     width: 100%;
@@ -205,6 +216,8 @@ footer a {
 footer a:hover {
     color: yellowgreen;
 }
+
+/*locations container on locations page*/
 
 #locations-container {
     height: 550px;
@@ -231,6 +244,8 @@ footer a:hover {
 .locations .map {
     width: 90%;
 }
+
+/*join us page sing up container*/
 
 #sign-in {
     width: 60%;
@@ -297,6 +312,8 @@ footer a:hover {
     color: #fff;
 }
 
+/*join us page video container*/
+
 #join-video {
     width: 55%;
     height: 90%;
@@ -323,6 +340,7 @@ footer a:hover {
     margin: 0 auto;
 }
 
+/*rearrengment for responsiveness*/
 
 @media screen and (max-width: 1700px) {
     section {
