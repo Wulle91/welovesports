@@ -1,108 +1,70 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+...Just sports...
 
-Welcome Wulle91,
+Lot of peope woul like to doo some sports and dont wannt to get cougt up in boring routine of trinig or repeting allways the same execises, gooing to same places, dooing all the same stuff ower and ower agin.
+Our goal is to connect people of one comunity to meet up and train/play all kinds of sports together. We play vereity of sports on diferent locations and making it so interesting to come and have fun with people with the same goal.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+User of the website will be able to see our location and times wann we meetup, reigstering to our page user wwould get informations on our next meetuops or some tournements wich our user could join.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![amIResponsive](assets/images/amiresponsive.PNG)
 
-## Gitpod Reminders
+Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Navigation
 
-`python3 -m http.server`
+    Navigation
+        Fetaurd und our cover image with diferent players center align is our nav bar with underlined Home witch shows us on witch page are we currently on and by clicking it taking us on top of our homepage.
+        The other elements in nav bar are Locations and Join Us witch take us to other pages.
+        Navigation is in font similar to thos used for energy drinks witch complements the paion for spots.
+        Navigation tells clearly wheere we are and what content we cann find on our webpage.
 
-A blue button should appear to click: _Make Public_,
+![pageElements](assets/images/navbar.PNG) 
 
-Another blue button should appear to click: _Open Browser_.
+    The Header
+        The header shows the simple title ...just sports... followd by imperative message to respecto your body and indications ther later on user cann find out what is it about.
+        The header shows its clearly for sports only, profesional adult athlets indicates its not for kids.
+        Section provides all the information after first impression given in header.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![pageElements](assets/images/header.PNG)
 
-A blue button should appear to click: _Make Public_,
+    Section
+        In section is our main content with intiguing title 4w4u following by 4 sections with 4 w questins, why, what, who, where with small intro to explanation, each one expands on hover and in every one are further information eventually givin the full information about all there is about our topic.
+        This section, gives all necessary information obut our page and our goals.
 
-Another blue button should appear to click: _Open Browser_.
+![pageElements](assets/images/section.PNG)     
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    Locations
+        Second page of our webpage is locations section with all locations where and wenn we meat and what we play.
+        Locations page has 6 boxes with locations and every box hat iframe google maps with exact lokation of meetup, it convinient to users in cars allowing them to find location fast in cases wwhere they are driving.
 
-To log into the Heroku toolbelt CLI:
+![pageElements](assets/images/locations.PNG)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    Join us
+        The join us page has a form to collect details from users so they can be a member and join us on trainings.
+        Form collects the users name, surname, email, and year of birth.
+        Its importan to register because the traingns are for members only and memebers get information such es if locatins are changed or if we organise or participate in turnament or someting of similat content.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+        Next to form is one motivational video to convice the users witch are still not shure if they want ot join us or not.
 
-------
+![pageElements](assets/images/joinus.PNG)  
 
-## Release History
+    Social Media
+        In footer are our social media links to take our users on our social media sites where are reguraly postet pictures of our meetups and trainings.
+        Links are colored green on hover and all links open in new tab.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![pageElements](assets/images/footer.PNG)   
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Testing
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+    I tested this page in different browsers Chrome, Firefox, Edge.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+    I confirmed that this project is, looks good and functins on all standard screen sizes using the dectools device toolbar.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+    I confirmed that the nacigationa, header, locatons, sign up, section and footer are all readable and easy to understand.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+    I confirmed that thr form woeks: requires enteries in every field, will only accept an email in the email field, and the submit button works.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Bugs
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+    

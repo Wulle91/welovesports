@@ -48,7 +48,7 @@ h1 {
 }
 
 nav {
-    background-color: black;
+    background-color: rgb(201, 28, 28);
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -120,6 +120,7 @@ section {
 
 #description-div li {
     list-style-type: none;
+    margin-bottom: 30px;
     width: 90%;
     
 }
@@ -209,7 +210,7 @@ footer a:hover {
     height: 550px;
     margin: 20px 10%; 
     position: absolute;
-    text-align: center;
+    text-align: center;  
 }
 
 .locations {
@@ -265,7 +266,7 @@ footer a:hover {
 }
 
 #reset {
-    
+    width: 50px;
     margin: 20px 10px;
     float: right;
     transform: scale(1.3);
@@ -278,6 +279,7 @@ footer a:hover {
     float: left;
     transform: scale(1.3);
     font-family: 'fugaz one', sans-serif;
+    width: 20%;
 }
 
 #submit:hover {
