@@ -98,7 +98,7 @@ I confirmed that thr form works: requires entries in every field, will only acce
   - No errors were found when passing through the official [(Jigsaw) validator](https://github.com/Wulle91/welovesports/blob/main/assets/images/jigsaw.PNG)
 
 - Accessibility     
-  - I confirm that colors and fonts are easy to read by running it trought lighthouse in devtools.
+  - I confirm that colors and fonts are easy to read by running it trought lighthouse in devtools. [lighthouse validator](https://github.com/Wulle91/welovesports/blob/main/assets/images/peformance.PNG)
 
 ### Unfixed Bugs
 
