@@ -81,7 +81,7 @@ section {
     background: url("../images/2946550.webp") no-repeat center center; 
 }
 
-#description-div {
+#description {
     
     background-color: rgba(14, 12, 12, .97);
     height: 100%;
@@ -95,7 +95,7 @@ section {
     display: flex;
 }
 
-#description-div h2 {
+#description h2 {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -121,17 +121,17 @@ section {
     margin: 5px auto;
 }
 
-#description-div h3 {
+#description h3 {
     font-size: 150%;
 }
 
-#description-div li {
+#description li {
     list-style-type: none;
     margin-bottom: 30px;
     width: 90%;  
 }
 
-#description-div ul {
+#description ul {
     margin-top: 40px;
 }
 
@@ -389,7 +389,7 @@ footer a:hover {
         display: inline-flex;
         margin-right: 20px;
     }
-    #description-div h2 {
+    #description h2 {
         color: #fff;
         text-align: center;
         text-transform: uppercase;
