@@ -78,9 +78,7 @@ nav a:hover {
 section {
     height: 600px;
     width: 100%;
-    background: url("../images/2946550.webp") no-repeat center center;
-    
-  
+    background: url("../images/2946550.webp") no-repeat center center; 
 }
 
 #description-div {
@@ -95,7 +93,6 @@ section {
     margin: 0 auto;
     width: 70%;
     display: flex;
-
 }
 
 #description-div h2 {
@@ -131,8 +128,7 @@ section {
 #description-div li {
     list-style-type: none;
     margin-bottom: 30px;
-    width: 90%;
-    
+    width: 90%;  
 }
 
 #description-div ul {
@@ -200,7 +196,6 @@ footer {
     height: 150px;
     background: black;
     text-align: center;
-
 }
 
 footer a {
@@ -304,6 +299,10 @@ footer a:hover {
 
 #submit:hover {
     color: red;
+}
+
+#reset:hover {
+    background-color: rgb(184, 180, 180);
 }
 
 #personal-info h2 {

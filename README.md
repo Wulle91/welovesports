@@ -36,8 +36,7 @@ Users of the website will be able to see our location and times wann we meetup, 
 - __4 w 4 u Section__
 
   - In section is our main content with inrtiguing title 4w4u following by 4 sections with 4 w questions, why, what, who, where with small intro to explanation, each one  
-    expands 
-    on hover and in every one are further information eventually givin the full information about all there is about our topic.
+    expands on hover and in every one are further information eventually givin the full information about all there is about our topic.
            
   - This section, gives all necessary information aobut our page and our goals. 
 
@@ -45,10 +44,9 @@ Users of the website will be able to see our location and times wann we meetup, 
 
 - __Locations section__
 
-  - Second page of our webpage is locations section with all locations where and wenn we meat and what we play.
+  - Second page of our webpage is locations section with all locations where and wenn we meet and what we play.
              
-  - Locations page has 6 boxes with locations and every box hat iframe google maps with exact location of meetup, it convenient to users in cars allowing them to find location  
-    fast in cases where they are driving.
+  - Locations page has 6 boxes with locations and every box hat iframe google maps with exact location of meetup, it convenient to users in cars allowing them to find location fast in cases where they are driving.
 
 ![Locations Times](https://github.com/Wulle91/welovesports/blob/main/assets/images/locations.PNG)
 
@@ -57,8 +55,7 @@ Users of the website will be able to see our location and times wann we meetup, 
   -  The join us page has a form to collect details from users so they can be a member and join us on trainings.
   -  Form collects the users name, surname, email, and year of birth.
 
-  -  Its important to register because the trainings are for members only and members get information, such es if locations are changed or if we organize or participate in    
-     tournament or something of similar content.
+  -  Its important to register because the trainings are for members only and members get information, such es if locations are changed or if we organize or participate in tournament or something of similar content.
            
   -  Next to form is one motivational video to convince the users witch are still not shure if they want to join us or not.
 
@@ -79,20 +76,20 @@ Users of the website will be able to see our location and times wann we meetup, 
 
 I tested this page in different browsers Chrome, Firefox and Edge.
 
-I confirmed that this project is, looks good and functions on all standard screen sizes using the devtools device toolbar.
+I confirmed that this project looks good and functions on all standard screen sizes using the devtools device toolbar.
 
 I confirmed that the navigation, header, locations, sign up, section and footer are all readable and easy to understand.
 
-I confirmed that thr form works: requires entries in every field, will only accept an email in the email field, and the submit button works.
+I confirmed that the form works: requires entries in every field, will only accept an email in the email field, and the submit button works.
 
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official. Home, Locations, Join Us, respectivly.
-  [W3C validator](https://github.com/Wulle91/welovesports/blob/main/assets/images/w3home.PNG)
-  [W3C validator](https://github.com/Wulle91/welovesports/blob/main/assets/images/w3locations.PNG)
-  [W3C validator](https://github.com/Wulle91/welovesports/blob/main/assets/images/w3joinus.PNG)
+  - No errors were returned when passing through the official w3c validaor.
+  [W3C validator home](https://github.com/Wulle91/welovesports/blob/main/assets/images/w3home.PNG)
+  [W3C validator loacations](https://github.com/Wulle91/welovesports/blob/main/assets/images/w3locations.PNG)
+  [W3C validator join us](https://github.com/Wulle91/welovesports/blob/main/assets/images/w3joinus.PNG)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://github.com/Wulle91/welovesports/blob/main/assets/images/jigsaw.PNG)
@@ -102,8 +99,8 @@ I confirmed that thr form works: requires entries in every field, will only acce
 
 ### Unfixed Bugs
 
-I couldn't style reset and submit button than i notced that new code is beein overwritten by code above that more specific was, I added to id parent element id an it worked fine.
-Submit and reset buttons didn't work. Closing form tag was right after opening tag, i probably did copy/paste instead cut/paste.
+- I couldn't style reset and submit button than i notced that new code is beein overwritten by code above that more specific was, I added to id parent element id an it worked fine.
+- Submit and reset buttons didn't work. Closing form tag was right after opening tag, i probably did copy/paste instead cut/paste.
  
 
 ## Deployment
@@ -111,8 +108,8 @@ Submit and reset buttons didn't work. Closing form tag was right after opening t
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - From there click on Page
+  - Once there the link of our homepage will be shown on top. 
 
 The live link can be found here - https://github.com/Wulle91/welovesports
 
