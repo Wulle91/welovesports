@@ -97,7 +97,7 @@ I confirmed that the form works: requires entries in every field, will only acce
 - Accessibility     
   - I confirm that colors and fonts are easy to read by running it trought lighthouse in devtools. [lighthouse validator](https://github.com/Wulle91/welovesports/blob/main/assets/images/peformance.PNG)
 
-### Unfixed Bugs
+### Fixed Bugs
 
 - I couldn't style reset and submit button than i notced that new code is beein overwritten by code above that more specific was, I added to id parent element id an it worked fine.
 - Submit and reset buttons didn't work. Closing form tag was right after opening tag, i probably did copy/paste instead cut/paste.
