@@ -37,7 +37,7 @@ Second one is picture with different balls witch is used as background under our
 
 ### Wireframes
 
-![Balsamiq](https://github.com/Wulle91/welovesports/blob/main/assets/images/sports.png)
+![Balsamiq](https://github.com/Wulle91/welovesports/blob/main/assets/images/sports.PNG)
 
 I used Balsamiq to sketch my page with general idea how it's supposed to look like.
 
