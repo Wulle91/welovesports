@@ -6,7 +6,40 @@ Our goal is to connect people from one community to meet up and train/play all k
 
 Users of the website will be able to see our location and times wann we meetup, registering to our page user will get information on our next meetups or some tournaments wich they could join.
 
+## Design
+
 ![Responsice Mockup](https://github.com/Wulle91/welovesports/blob/main/assets/images/amiresponsive.PNG)
+
+### Colour Scheme
+
+I wasn't aware there are sites taht can help with color pallets so i didnt use any, I wend wit simple black and white combination 
+
+### Typography
+
+I imported fonts from fonts google, 'fugaz one' and 'kelly slab'. 
+
+Big titles are with fugaz one, i choused it because i thought i looks energetic and powerful and for rest of larger texts and messages.
+
+I used 'kelly slab' because it looks clean and easy to read but still nevertheless powerful.
+
+
+![4 w 4 u](https://github.com/Wulle91/welovesports/blob/main/assets/images/section.PNG)
+
+[Google Fonts](https://fonts.google.com/)
+
+### Imagery
+
+I downloaded two pictures from google.
+
+First one is hero image witch was for some sports commercial.
+
+Second one is picture with different balls witch is used as background under our containers, just on the first page I covered the background with transparent black color because so it is easier to read and that first page has more textual content than the others.
+
+### Wireframes
+
+![Balsamiq](https://github.com/Wulle91/welovesports/blob/main/assets/images/sports.png)
+
+I used Balsamiq to sketch my page with general idea how it's supposed to look like.
 
 ## Features 
 
@@ -79,6 +112,19 @@ I tested this page in different browsers Chrome, Firefox and Edge.
 I confirmed that this project looks good and functions on all standard screen sizes using the devtools device toolbar.
 
 I confirmed that the navigation, header, locations, sign up, section and footer are all readable and easy to understand.
+
+`Home Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites navigation links | Takes to other pages wen clicked | Clicked pages | Takes to other pages | Pass |
+| Page links hover | Page links change color on hover | Hover over link | Colors change| Pass |
+| Page links | Opens page wenn clicked | Clicked link | Opens other pages| Pass |
+| Social media link hover | Social media links change color on hover | Hover over link | Color change | Pass |
+| Social media link | Takes us to our socialmedia pages wenn clicked | Clicked on button | Opens social media page | Pass |
+| 4W container | On hover wxpands and describes one the perticular W | Hover over | Expands and explanation slides in | Pass |
+| Location links | Loction link open google maps with directions where to go | Clicked on links | Takes us to google maps with that location | Pass |
+| Motivational video | Video from youtube with play/pause button  | clicked on play/pause | Video played/paused | Pass |
 
 I confirmed that the form works: requires entries in every field, will only accept an email in the email field, and the submit button works.
 
