@@ -76,7 +76,6 @@ nav a:hover {
 /*main section on home page*/
 
 section {
-    height: 600px;
     width: 100%;
     background: url("../images/2946550.webp") no-repeat center center; 
 }
@@ -116,7 +115,6 @@ section {
     border-radius: 15px;
     font-family: 'kelly slab', sans-serif;
     color: #fff;
-    margin: 5px;
     overflow: hidden;
     margin: 5px auto;
 }
@@ -215,9 +213,7 @@ footer a:hover {
 /*locations container on locations page*/
 
 #locations-container {
-    height: 550px;
-    margin: 20px 10%; 
-    position: absolute;
+    padding: 20px 10%; 
     text-align: center;  
 }
 
@@ -244,7 +240,6 @@ footer a:hover {
 
 #sign-in {
     width: 60%;
-    height: 500px;
     margin: 0 auto;
     padding: 5%;
     display: flex;
@@ -315,7 +310,6 @@ footer a:hover {
 
 #join-video {
     width: 55%;
-    height: 90%;
     margin-top: 40px;
     padding: 0 40px;
     background-color: rgba(14, 12, 12, .97);
@@ -342,9 +336,7 @@ footer a:hover {
 /*rearrengment for responsiveness*/
 
 @media screen and (max-width: 1700px) {
-    section {
-        height: 900px;
-    }
+    
     #center {
         display: flex;
         flex-wrap: wrap;
@@ -367,18 +359,14 @@ footer a:hover {
         width: 370px;
         height: fit-content;
     }
-    section {
-        height: 950px;
-    }
+    
     #join-video iframe {
         margin-bottom: 30px;
     }
 }
 
 @media screen and (max-width: 1010px) {
-    section {
-        height: 1050px;
-    }
+    
     #center {
         display: flex;
         flex-wrap: wrap;
@@ -430,6 +418,12 @@ footer a:hover {
         overflow: scroll;
         height: 100%;
     }
+    #description{
+        padding: 50px 0;
+    }
+    .four-w {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 465px) {
@@ -440,4 +434,11 @@ footer a:hover {
     #join-video {
         width: 90%;
     }
+    footer a {
+        margin-right: 0;
+    }
+    #why:hover {
+        height: 400px;
+    }
 }
+
