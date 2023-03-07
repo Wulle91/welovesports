@@ -77,7 +77,7 @@ nav a:hover {
 
 section {
     width: 100%;
-    background: url("../images/2946550.webp") no-repeat center center; 
+    background: url("../images/2946550.webp") center center; 
 }
 
 #description {
@@ -413,10 +413,6 @@ footer a:hover {
         width: 80%;
         margin: 0 auto;
         height: 270px;
-    }
-    #locations-container {
-        overflow: scroll;
-        height: 100%;
     }
     #description{
         padding: 50px 0;
